@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="test.css" />
+
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="current-info">
+        <div class="date-container">
+          <div class="time" id="time"></div>
+          <div class="date" id="date">Monday, January 22</div>
+          <div class="other" id="current-weather-items"></div>
+        </div>
+        <div class="place-container">
+          <div class="time-zone" id="time-zone">Texas</div>
+          <div class="country" id="country">USA</div>
+        </div>
+      </div>
+    
+
+    <div class="future-forecast" id="future-forecast">
+      <div class="today" id="current-temp">
+        <img
+          src="http://openweathermap.org/img/wn/10d@2x.png"
+          alt="weather icon"
+          class="w-icon"
+        />
+        <div class="other">
+          <div class="day">Today</div>
+          <div class="temp">Night - 55&#176; F</div>
+          <div class="temp">Day - 85&#176; F</div>
+        </div>
+      </div>
+
+      <div class="weather-forecast" id="weather-forecast">
+        <div class="weather-forecast-item">
+          <div class="day">Tommorrow</div>
+          <img
+            src="http://openweathermap.org/img/wn/10d@2x.png"
+            alt="weather icon"
+            class="w-icon"
+          />
+          <div class="temp">Night - 55&#176; F</div>
+          <div class="temp">Day - 85&#176; F</div>
+        </div>
+        <div class="weather-forecast-item">
+          <div class="day">Tues</div>
+          <img
+            src="http://openweathermap.org/img/wn/10d@2x.png"
+            alt="weather icon"
+            class="w-icon"
+          />
+          <div class="temp">Night - 55&#176; F</div>
+          <div class="temp">Day - 85&#176; F</div>
+        </div>
+        <div class="weather-forecast-item">
+          <div class="day">Wends</div>
+          <img
+            src="http://openweathermap.org/img/wn/10d@2x.png"
+            alt="weather icon"
+            class="w-icon"
+          />
+          <div class="temp">Night - 55&#176; F</div>
+          <div class="temp">Day - 85&#176; F</div>
+        </div>
+        <div class="weather-forecast-item">
+          <div class="day">Thurs</div>
+          <img
+            src="http://openweathermap.org/img/wn/10d@2x.png"
+            alt="weather icon"
+            class="w-icon"
+          />
+          <div class="temp">Night - 55&#176; F</div>
+          <div class="temp">Day - 85&#176; F</div>
+        </div>
+        <div class="weather-forecast-item">
+          <div class="day">Fri</div>
+          <img
+            src="http://openweathermap.org/img/wn/10d@2x.png"
+            alt="weather icon"
+            class="w-icon"
+          />
+          <div class="temp">Night - 55&#176; F</div>
+          <div class="temp">Day - 85&#176; F</div>
+        </div>
+        <div class="weather-forecast-item">
+          <div class="day">Sat</div>
+          <img
+            src="http://openweathermap.org/img/wn/10d@2x.png"
+            alt="weather icon"
+            class="w-icon"
+          />
+          <div class="temp">Night - 55&#176; F</div>
+          <div class="temp">Day - 85&#176; F</div>
+        </div>
+      </div>
+      </div>
+
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
+      integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

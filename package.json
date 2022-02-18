@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "dotenv": "^14.2.0"
+  },
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "a simple weather application built using JavaScript, CSS, and HTML.  ",
+  "main": "script.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
